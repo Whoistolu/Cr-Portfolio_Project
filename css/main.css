@@ -325,3 +325,31 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+#name,
+#surname {
+  display: none;
+}
+
+input,
+textarea {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  min-width: 50vw;
+}
+
+textarea {
+  color: #3c3a39;
+  border: none;
+  outline: none;
+  margin-left: -20px;
+  align-self: center;
+}
+
+.centered-link {
+  align-self: center;
+  border: none;
+}
