@@ -7,7 +7,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./img/222.png)
+![screenshot](./img/212.png)
 
 ## Built With
 
