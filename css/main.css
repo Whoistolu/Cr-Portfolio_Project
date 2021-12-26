@@ -326,6 +326,33 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
+#contact {
+  padding: 10%;
+}
+
+#contact h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: solid 2px #dbd8d7;
+}
+
 #name,
 #surname {
   display: none;
@@ -338,6 +365,8 @@ textarea {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  margin: 5px;
+  padding: 5px;
   min-width: 50vw;
 }
 
@@ -347,6 +376,10 @@ textarea {
   outline: none;
   margin-left: -20px;
   align-self: center;
+}
+
+textarea::placeholder {
+  color: #24211f;
 }
 
 .centered-link {
